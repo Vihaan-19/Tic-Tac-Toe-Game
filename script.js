@@ -209,7 +209,6 @@ ox[3][3].addEventListener("click", () => {
 function validate(tr) {
     if (check(tr)) {
         winner.innerHTML = "Game Ends";
-        print(tr);
     }
 
     else if (ctr == 9) {
