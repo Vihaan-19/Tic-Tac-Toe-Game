@@ -41,10 +41,6 @@ body {
     font-weight: bolder;
 }
 
-.restart :hover{
-    color: blue;
-}
-
 .restart{
     background-color: purple;
     padding: 5px 10px;
@@ -56,8 +52,6 @@ body {
     border: 2px solid purple;
     border-radius: 3px;
 }
-
-
 
 #winner {
     text-align: center;
