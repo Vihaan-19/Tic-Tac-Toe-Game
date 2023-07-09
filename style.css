@@ -26,6 +26,7 @@ body {
 .board button:hover{
     background-color: #A7EDE7;
     color: #A7EDE7;
+    transition: 0.2s
 }
 
 .board button {
