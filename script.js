@@ -12,10 +12,18 @@ else {
     var a = 'O';
     var b = 'X';
 }
+var aud = ["", "", "", ""];
+aud[0] = new Audio("neon-gaming-128925.mp3");
+aud[1] = new Audio("stranger-things-124008.mp3");
+aud[2] = new Audio("lady-of-the-80x27s-128379.mp3");
+aud[3] = new Audio("kim-lightyear-just-a-dream-wake-up-153991.mp3");
 
 $(document).ready(function () {
-
     $(".board button").click(function () {
+        if (ctr == 0) {
+            aud[Math.floor(rand * 1.5)].play();
+        }
+
         if (this.innerHTML == ".") {
             this.style.color = "black";
             var i = Math.floor($(this).attr('id') / 10);
